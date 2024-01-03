@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head> 
+<body>
+    <div class="mdiv">
+      <div class="weather_app">
+        <h2 align="center" class="tracking-in-expand" id="ttl">WEATHER FORECAST</h2>
+        <div class="ip">
+           <input type="text" id="userText">
+           <button onclick="getWeatherData();"><img src="https://cdn.dribbble.com/users/891352/screenshots/2651893/svg-search.gif" alt="searchicon" class="sicon"></button>
+        </div>
+        <div class="info" align="center">
+            <img src="https://media4.giphy.com/media/MBNaeXPprs8lBb4fjQ/giphy.gif?cid=6c09b952dzgwumbybgdmg2gcmsri784z98fxzuebmhzdzt8x&ep=v1_stickers_related&rid=giphy.gif&ct=s" alt="weather_img" class="weather_img">
+            <h1 id="temp">27 °C</h1>
+            <h2 id="city">PUNE</h2>
+        </div>
+        <div class="info2"> 
+          <div class="humditiy">
+              <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="" class="huml">
+               <h3>HUMIDITY</h3>
+              <h4 id="humditiy-info">50%</h4>
+          </div>
+          <div class="wind">
+            <img src="https://static-00.iconduck.com/assets.00/wind-icon-2048x1570-qr102xee.png" alt="" class="huml">
+            <h3>WIND</h3>
+            <h4 id="wind-info">4 km/h</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Weather.js"></script>
+</body>
+
+</html>
